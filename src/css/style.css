@@ -68,7 +68,8 @@ body{
     font-family: cursive;
     color: #4162f6;
     position: relative;
-    top: -5px;
+    top: -2px;
+    align-items: center;
 }
 .todo{
     margin: 10px;
@@ -94,12 +95,14 @@ body{
     cursor: pointer;
     font-size: 15px;
     text-shadow: 1px 3px 5px white;
-    position: relative;
-    left: 200px;
+    position: fixed;
+    right: 580px;
     align-items: center;
 }
 .complete-btn {
     background: lightgreen;
+    position: fixed;
+    right: 620px;
 }
 .task{
     width:380px;
@@ -151,14 +154,13 @@ body{
     position: absolute;
     font-size: 40px;
     color: #4162f6;
-    
+    align-items: center;
 }
 
 .add-to-do input{
     position: absolute;
-    left: 50px;
     height: 35px;
-    width: 310px;
+    width: 275px;
     background-color: transparent;
     border-color: transparent;
     font-size: 20px;
@@ -166,6 +168,7 @@ body{
     outline: none;
     font-family: cursive;
     left: 80px;
+    align-items: center;
     
 }
 .add-to-do input::-webkit-input-placeholder { /* Chrome/Opera/Safari */

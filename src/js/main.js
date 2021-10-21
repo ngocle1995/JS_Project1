@@ -24,7 +24,7 @@ function addTodo (event) {
     document.getElementById("input").style.border = '';
     document.getElementById("input").style.color = '';
     let task = todoInput.value;
-    if(task.length > 2){
+    if(task.length > 2 && task.length < 23){
         const todoDiv = document.createElement("todo");
         todoDiv.classList.add("todo");
         const newTodo = document.createElement('li');
@@ -46,7 +46,7 @@ function addTodo (event) {
     } else {
         document.getElementById("input").style.border = "2px solid red";
         document.getElementById("input").style.color = "#EF0000";  
-        alert("Input need more then 2 characters");
+        alert("Input need more then 2 characters and less than 23 characters");
     }
         todos.push(task);
         saveLocalTodo(todos);
