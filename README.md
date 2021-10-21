@@ -16,7 +16,6 @@ The layout present a mobile-device layout.
 
 My own evaluation: 3
 Reason: I managed to include all the basic functions and variables and understand the DOM scripting and forms.
-However, i was struggling with fixing the css code for todo, trash-btn and complete-btn, where the complete and trash buttons move according to the length of the text shown in the list.
 I was also planning to add a filter, however, it did not work and it took me 4-5 days in vain trying to fix it. I copied the function here so if it is possible to fix it, I would very appreciate.
 
 function filterTask(e) {
