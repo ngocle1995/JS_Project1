@@ -25,7 +25,7 @@ body{
     right:50px;
     top: 90px;
     text-shadow: 1px 3px 5px #000;
-    
+
 }
 .clear i{      /* trash button*/
     font-size: 30px;
@@ -52,16 +52,16 @@ body{
     max-height:350px;
     background-color: rgb(255, 255, 255);
     overflow: auto;
-    display: flex;
 }
-.content::-webkit-scrollbar { 
-    display: none; 
+.content::-webkit-scrollbar {
+    display: none;
 }
 .content ul{
     padding:0;
     margin:0;
     list-style: none;
-
+    display: flex;
+    flex-direction: column;
 }
 .todo-button{
     font-size: 28px;
@@ -78,7 +78,6 @@ body{
     font-size: 20px;
     display: flex;
     justify-content: space-between;
-    position: relative;
     left: 20px;
     align-items: center;
     font-family: cursive;
@@ -94,7 +93,6 @@ body{
     cursor: pointer;
     font-size: 15px;
     text-shadow: 1px 3px 5px white;
-    position: fixed;
     right: 580px;
     align-items: center;
 }
@@ -172,7 +170,7 @@ body{
     font-family: cursive;
     left: 80px;
     align-items: center;
-    
+
 }
 .add-to-do input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #4162f6;
