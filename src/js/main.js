@@ -4,7 +4,7 @@ const list = document.getElementById("list");
 const todoInput = document.getElementById("input");
 const todoButton = document.querySelector(".todo-button");
 
-//Identify storage array
+//Identify storage
 let todos = [];
 
 //Event listeners
