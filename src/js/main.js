@@ -6,6 +6,7 @@ const todoButton = document.querySelector(".todo-button");
 
 let todos = [];
 
+//Event listeners
 todoButton.addEventListener("click", addTodo);
 list.addEventListener("click",deleteCheck);
 clear.addEventListener("click", function(){
@@ -19,6 +20,7 @@ const today = new Date();
 
 dateElement.innerHTML = today.toLocaleDateString("en-US", options);
 
+//Add task
 function addTodo (event) {
     event.preventDefault();
     document.getElementById("input").style.border = '';
@@ -53,6 +55,7 @@ function addTodo (event) {
     todoInput.value= "";
 }
 
+//Check & delete task
 function deleteCheck(e){
     const item = e.target;
     if(item.classList[0] === 'trash-btn'){
@@ -66,7 +69,7 @@ function deleteCheck(e){
     }
 }
 
-
+//Local Storage save
 
 function saveLocalTodo(todos){
     if(localStorage.getItem("todos") === null){
