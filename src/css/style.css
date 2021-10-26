@@ -92,7 +92,11 @@ body{
     padding: 15px;
     cursor: pointer;
     font-size: 15px;
+<<<<<<< HEAD
     text-shadow: 2px 3px 5px rgb(199, 75, 75);
+=======
+    text-shadow: 1px 3px 5px white;
+>>>>>>> ead79138a5a801d146e6e09cbad3e596d07752e5
     right: 580px;
     align-items: center;
     color: red;
